@@ -1,0 +1,48 @@
+.score-container {
+    width: 19vw;
+    height: 19vw;
+    position: relative;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: stretch;
+      justify-content: space-evenly;
+      align-items: stretch;
+    }
+  
+  .score-title{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #20253a;
+  }
+  .score-legend {
+    color: #282d30;
+    font-size: 0.8rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 35%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .score-legend p {
+    margin: 0;
+    text-align: center;
+  }
+  .score-label {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .score-text {
+    font-size: 1rem;
+    color: #74798C;
+    font-weight: 700;
+  }

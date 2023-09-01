@@ -1,0 +1,30 @@
+.data-card {
+    display: flex;
+    background-color: #FBFBFB;
+    align-items: center;
+    width: 258px;
+    height: 124px;
+    border-radius: 5px;
+}
+
+.data-card img {
+    width : 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.keydata-text {
+    margin-left: 20px;
+}
+
+.keydata-number {
+    line-height: 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.keydata-name {
+    color : #74798C;
+    font-size: 20px ;
+    font-weight: 500;
+}

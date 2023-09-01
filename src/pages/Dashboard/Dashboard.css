@@ -1,0 +1,37 @@
+body {
+    min-width: 1024px ;
+    min-height: 780px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.dashboard {
+    display: flex;
+    margin-left: 12%;
+}
+
+.left-side {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side-row {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 30%;
+}

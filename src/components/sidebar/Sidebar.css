@@ -1,0 +1,27 @@
+.sidebar {
+    display: flex;
+    background-color: black;
+    height: 1024px;
+    width: 115px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 5rem;
+}
+
+.activity-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.sidebar p {
+    color: white;
+    transform: rotate(270deg);
+    font-size: 12px;
+    width: 150px;
+    padding-left: 140px;
+}

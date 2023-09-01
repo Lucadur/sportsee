@@ -1,0 +1,36 @@
+.goals-container {
+    width: 19vw;
+    height: 19vw;
+    position: relative;
+    background-color: #e60000;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  .goals-title {
+    width: 65%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .custom-tooltip_goals {
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 0rem;
+    padding: 0.5rem 0.5rem;
+    background-color: white;
+  }
+  
+  .formatXAxis {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 0.5rem 0 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 1rem;
+  }
