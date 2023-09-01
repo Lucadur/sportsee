@@ -7,7 +7,7 @@ body {
 
 .error-container {
     position: relative;
-    bottom: 50rem;
+    top : 15rem;
     display: flex;
     align-items: center;
     justify-content: center;
